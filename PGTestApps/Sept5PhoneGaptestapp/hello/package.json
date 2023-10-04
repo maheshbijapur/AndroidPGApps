@@ -1,0 +1,29 @@
+{
+  "name": "com.vessel.abtest",
+  "displayName": "HelloWorld",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-ios": "^7.0.0",
+    "MarketoPlugin": "github:Marketo/PhoneGapPlugin#0.9.2"
+  },
+  "cordova": {
+    "platforms": [
+      "ios"
+    ],
+    "plugins": {
+      "com.marketo.plugin": {
+        "APPLICATION_SECRET_KEY": "ZjRWbG03UTV2alVBU0x0V01CaDFyR3lk"
+      }
+    }
+  }
+}
